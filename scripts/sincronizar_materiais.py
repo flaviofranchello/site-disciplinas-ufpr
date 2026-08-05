@@ -45,9 +45,11 @@ def display_title(path: Path) -> str:
     return re.sub(r"\s+", " ", title).strip()
 
 
-def category_for(relative_path: Path) -> tuple[str, str]:
+def category_for(course_slug: str, relative_path: Path) -> tuple[str, str]:
     normalized = unicodedata.normalize("NFKD", str(relative_path)).encode("ascii", "ignore").decode("ascii").lower()
-    if "complement" in normalized:
+    if course_slug == "fisica-3" and "lista" in normalized:
+        return "listas", "Lista"
+    if course_slug == "fisica-experimental-1" and "complement" in normalized:
         return "complementares", "Material complementar"
     return "aulas", "Aula"
 
@@ -79,7 +81,7 @@ def sync_course(slug: str, course: dict[str, object], dry_run: bool = False) -> 
 
     for pdf in pdfs:
         destination = unique_destination(output_dir, slugify(pdf.name), used)
-        category, category_label = category_for(pdf.relative_to(source))
+        category, category_label = category_for(slug, pdf.relative_to(source))
         if not dry_run:
             shutil.copy2(pdf, destination)
         materials.append(

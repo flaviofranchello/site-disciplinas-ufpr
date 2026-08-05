@@ -924,3 +924,211 @@ svg {
     transition-duration: 0.01ms !important;
   }
 }
+/* Layout simples e centrado nos arquivos */
+.simple-home {
+  max-width: 860px;
+  padding: 95px 0 36px;
+}
+
+.simple-home h1 {
+  margin: 0 0 18px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.5rem, 5vw, 4.2rem);
+  font-weight: 400;
+  letter-spacing: -0.045em;
+  line-height: 1;
+}
+
+.simple-home > p:last-child {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+}
+
+.simple-course-list {
+  display: grid;
+  max-width: 860px;
+  gap: 14px;
+  padding: 22px 0 120px;
+}
+
+.simple-course-link {
+  display: grid;
+  grid-template-columns: 68px minmax(0, 1fr) 46px;
+  align-items: center;
+  gap: 24px;
+  min-height: 124px;
+  padding: 24px 28px;
+  background: rgba(255, 253, 248, 0.82);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  transition: 160ms ease;
+}
+
+.simple-course-link:hover {
+  background: var(--white);
+  border-color: rgba(31, 91, 120, 0.42);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(23, 36, 58, 0.07);
+}
+
+.course-tag {
+  display: grid;
+  width: 68px;
+  height: 68px;
+  color: var(--blue);
+  background: var(--blue-light);
+  border-radius: 18px;
+  place-items: center;
+  font-size: 0.75rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+}
+
+.experimental-link .course-tag {
+  color: var(--green);
+  background: var(--green-light);
+}
+
+.course-link-copy h2,
+.course-link-copy p {
+  margin: 0;
+}
+
+.course-link-copy h2 {
+  font-size: 1.22rem;
+  letter-spacing: -0.02em;
+}
+
+.course-link-copy p {
+  margin-top: 5px;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+.course-link-arrow {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  place-items: center;
+}
+
+.course-link-arrow svg {
+  width: 19px;
+}
+
+.course-heading {
+  padding: 72px 0 52px;
+  border-bottom: 1px solid var(--line);
+}
+
+.course-heading h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.6rem, 5vw, 3.8rem);
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+.course-description {
+  margin: 18px 0 0;
+  color: var(--ink-soft);
+}
+
+.compact-materials {
+  padding: 60px 0 105px;
+}
+
+.file-heading {
+  margin-bottom: 32px;
+}
+
+.file-heading h2 {
+  font-family: inherit;
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+}
+
+.file-heading > p {
+  max-width: 370px;
+  font-size: 0.9rem;
+}
+
+.compact-materials .filters {
+  padding: 4px;
+  background: var(--paper-deep);
+  border-radius: 999px;
+}
+
+.compact-materials .filter-button {
+  white-space: nowrap;
+}
+
+.compact-materials .filter-button.active {
+  box-shadow: 0 2px 8px rgba(23, 36, 58, 0.07);
+}
+
+.compact-materials .material-card {
+  min-height: 112px;
+}
+
+@media (max-width: 620px) {
+  .simple-home {
+    padding: 62px 0 26px;
+  }
+
+  .simple-home h1 {
+    font-size: 2.5rem;
+  }
+
+  .simple-course-list {
+    padding: 14px 0 80px;
+  }
+
+  .simple-course-link {
+    grid-template-columns: 52px minmax(0, 1fr) 36px;
+    gap: 15px;
+    min-height: 104px;
+    padding: 18px;
+  }
+
+  .course-tag {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    font-size: 0.65rem;
+  }
+
+  .course-link-arrow {
+    width: 36px;
+    height: 36px;
+  }
+
+  .course-heading {
+    padding: 48px 0 36px;
+  }
+
+  .course-heading h1 {
+    font-size: 2.65rem;
+  }
+
+  .file-heading h2 {
+    font-size: 1.65rem;
+  }
+
+  .filters {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow: visible;
+    padding-bottom: 4px;
+  }
+
+  .compact-materials .filter-button {
+    padding-inline: 10px;
+    white-space: normal;
+  }
+}

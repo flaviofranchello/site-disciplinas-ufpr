@@ -1,11 +1,14 @@
 # Disciplinas de Física — UFPR 2026.2
 
-Site estático para publicar aulas e materiais complementares de **Física III** e **Física Experimental I** no GitHub Pages.
+Site estático para publicar aulas e listas de **Física III**, além de aulas e materiais complementares de **Física Experimental I**, no GitHub Pages.
 
 ## Atualizar os materiais
 
 1. Coloque os PDFs nas pastas de origem das disciplinas.
-2. Para classificar um PDF como complementar, coloque-o em uma subpasta cujo nome contenha `complementar`.
+2. A classificação é feita pelo nome do arquivo ou da subpasta:
+   - em Física III, nomes contendo `lista` aparecem em **Listas**;
+   - em Física Experimental I, nomes contendo `complementar` aparecem em **Materiais Complementares**;
+   - os demais PDFs aparecem em **Aulas**.
 3. Na pasta do site, execute:
 
    ```bash

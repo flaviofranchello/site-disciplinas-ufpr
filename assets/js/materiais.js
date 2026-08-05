@@ -7,7 +7,13 @@ if (catalog) {
   const search = catalog.querySelector("[data-materials-search]");
   const filterButtons = [...catalog.querySelectorAll("[data-filter]")];
   let materials = [];
-  let activeFilter = "todos";
+  let activeFilter = catalog.dataset.defaultFilter || filterButtons[0]?.dataset.filter || "todos";
+
+  filterButtons.forEach((button) => {
+    const isActive = button.dataset.filter === activeFilter;
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  });
 
   const icons = {
     document: `<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 3.5h6l4 4V20a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4.5a1 1 0 0 1 1-1Z"/><path d="M13 3.5V8h4M9 12h6M9 15.5h6"/></svg>`,
@@ -68,7 +74,11 @@ if (catalog) {
   filterButtons.forEach((button) => {
     button.addEventListener("click", () => {
       activeFilter = button.dataset.filter;
-      filterButtons.forEach((item) => item.classList.toggle("active", item === button));
+      filterButtons.forEach((item) => {
+        const isActive = item === button;
+        item.classList.toggle("active", isActive);
+        item.setAttribute("aria-pressed", String(isActive));
+      });
       render();
     });
   });

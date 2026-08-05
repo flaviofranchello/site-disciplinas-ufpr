@@ -31,35 +31,19 @@
     </header>
 
     <main id="conteudo">
-      <section class="course-hero shell">
-        <div class="course-hero-grid">
-          <div>
-            <p class="eyebrow">Física Experimental I • 2026.2</p>
-            <h1>Medir, analisar <em>&amp; concluir.</em></h1>
-          </div>
-          <aside class="hero-note">
-            <strong>Sobre a disciplina</strong>
-            <p>Recursos para preparar os experimentos, organizar os dados e comunicar resultados com clareza.</p>
-          </aside>
-        </div>
+      <section class="course-heading shell">
+        <p class="eyebrow">2026.2</p>
+        <h1>Física Experimental I</h1>
+        <p class="course-description">Aulas e materiais complementares da disciplina.</p>
       </section>
 
-      <section class="course-band" aria-label="Resumo da disciplina">
+      <section class="materials-section compact-materials" data-materials-catalog data-manifest="materiais.json" data-default-filter="aulas">
         <div class="shell">
-          <div class="band-item"><span class="band-label">Eixo da disciplina</span><span class="band-value">Medição e análise experimental</span></div>
-          <div class="band-item"><span class="band-label">Período</span><span class="band-value">2026.2</span></div>
-          <div class="band-item"><span class="band-label">Materiais</span><span class="band-value"><span data-material-count>0</span> arquivos</span></div>
-        </div>
-      </section>
-
-      <section class="materials-section" data-materials-catalog data-manifest="materiais.json">
-        <div class="shell">
-          <div class="section-heading">
+          <div class="section-heading file-heading">
             <div>
-              <p class="eyebrow">Biblioteca da disciplina</p>
-              <h2>Roteiros &amp; recursos</h2>
+              <h2>Arquivos</h2>
             </div>
-            <p>Roteiros de laboratório, modelos, orientações de análise e leituras complementares.</p>
+            <p>Selecione uma categoria ou busque pelo título.</p>
           </div>
 
           <div class="material-tools">
@@ -69,19 +53,13 @@
               <input type="search" placeholder="Buscar por título…" data-materials-search />
             </label>
             <div class="filters" aria-label="Filtrar materiais">
-              <button class="filter-button active" type="button" data-filter="todos">Todos</button>
               <button class="filter-button" type="button" data-filter="aulas">Aulas</button>
-              <button class="filter-button" type="button" data-filter="complementares">Complementares</button>
+              <button class="filter-button" type="button" data-filter="complementares">Materiais Complementares</button>
             </div>
           </div>
           <p class="materials-status" aria-live="polite" data-materials-status>Carregando materiais…</p>
           <div class="materials-grid" data-materials-grid></div>
           <noscript><p>Ative o JavaScript para visualizar o catálogo de materiais.</p></noscript>
-
-          <aside class="info-strip">
-            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>
-            <div><h3>Prepare-se antes do laboratório</h3><p>Leia o roteiro com antecedência, identifique as grandezas que serão medidas e registre dados, unidades e incertezas durante toda a prática.</p></div>
-          </aside>
         </div>
       </section>
     </main>
