@@ -1,6 +1,6 @@
 {
   "disciplina": "Física III",
-  "atualizado_em": "2026-08-05",
+  "atualizado_em": "2026-08-06",
   "materiais": [
     {
       "titulo": "Aula 01 Apresentação do Curso + Carga Elétrica",
@@ -17,6 +17,22 @@
       "formato": "PDF",
       "tamanho": "2,6 MB",
       "arquivo": "materiais/arquivos/aula-02-carga-eletrica-e-campo-eletrico-pt-2.pdf"
+    },
+    {
+      "titulo": "Aula 03 Carga Elétrica e Campo Elétrico Pt 3",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "1,8 MB",
+      "arquivo": "materiais/arquivos/aula-03-carga-eletrica-e-campo-eletrico-pt-3.pdf"
+    },
+    {
+      "titulo": "Aula 04 Carga Elétrica e Campo Elétrico Pt 4",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "672 KB",
+      "arquivo": "materiais/arquivos/aula-04-carga-eletrica-e-campo-eletrico-pt-4.pdf"
     }
   ]
 }
