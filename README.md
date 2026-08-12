@@ -9,27 +9,29 @@ Site estático para publicar aulas e listas de **Física III**, além de aulas e
    - em Física III, nomes contendo `lista` aparecem em **Listas**;
    - em Física Experimental I, nomes contendo `complementar` aparecem em **Materiais Complementares**;
    - os demais PDFs aparecem em **Aulas**.
-3. Na pasta do site, execute:
+3. Execute o atualizador completo:
 
    ```bash
-   python3 scripts/sincronizar_materiais.py
+   cd "/home/flavio/site-disciplinas-ufpr"
+   ./atualizar_site.sh
    ```
 
-4. Confira a prévia local:
+   Opcionalmente, informe uma mensagem personalizada para o commit:
+
+   ```bash
+   ./atualizar_site.sh "Adiciona as aulas 05 e 06"
+   ```
+
+   Esse comando sincroniza os arquivos, cria o commit e envia a atualização
+   para o GitHub. Se não houver mudanças, nenhum commit será criado.
+
+4. Para conferir uma prévia local antes de atualizar, execute:
 
    ```bash
    python3 -m http.server 8000
    ```
 
    Depois abra `http://localhost:8000`.
-
-5. Envie as alterações ao GitHub:
-
-   ```bash
-   git add .
-   git commit -m "Atualiza materiais das disciplinas"
-   git push
-   ```
 
 ## Publicar no GitHub Pages
 
