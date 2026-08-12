@@ -1,6 +1,6 @@
 {
   "disciplina": "Física Experimental I",
-  "atualizado_em": "2026-08-06",
+  "atualizado_em": "2026-08-12",
   "materiais": [
     {
       "titulo": "Aula 00 Apresentação do Curso",
@@ -17,6 +17,14 @@
       "formato": "PDF",
       "tamanho": "10,1 MB",
       "arquivo": "materiais/arquivos/aula-01-teoria-dos-erros-parte-1.pdf"
+    },
+    {
+      "titulo": "Aula 02 Teoria dos Erros Parte 2",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "1,3 MB",
+      "arquivo": "materiais/arquivos/aula-02-teoria-dos-erros-parte-2.pdf"
     }
   ]
 }
