@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Copia PDFs das pastas de origem e atualiza os catálogos do site."""
+"""Espelha os PDFs das pastas de origem e atualiza os catálogos do site."""
 
 from __future__ import annotations
 
@@ -65,6 +65,20 @@ def unique_destination(output_dir: Path, filename: str, used: set[str]) -> Path:
     return output_dir / candidate
 
 
+def remove_stale_pdfs(output_dir: Path, expected: set[str], dry_run: bool) -> int:
+    stale_pdfs = sorted(
+        (path for path in output_dir.glob("*.pdf") if path.name not in expected),
+        key=lambda path: path.name.casefold(),
+    )
+    for stale_pdf in stale_pdfs:
+        if dry_run:
+            print(f"[simulação] removeria: {stale_pdf}")
+        else:
+            stale_pdf.unlink()
+            print(f"[removido] {stale_pdf}")
+    return len(stale_pdfs)
+
+
 def sync_course(slug: str, course: dict[str, object], dry_run: bool = False) -> int:
     source = Path(course["origem"])
     output_dir = SITE_ROOT / slug / "materiais" / "arquivos"
@@ -95,6 +109,8 @@ def sync_course(slug: str, course: dict[str, object], dry_run: bool = False) -> 
             }
         )
 
+    removed = remove_stale_pdfs(output_dir, used, dry_run)
+
     manifest = {
         "disciplina": course["nome"],
         "atualizado_em": date.today().isoformat(),
@@ -102,7 +118,11 @@ def sync_course(slug: str, course: dict[str, object], dry_run: bool = False) -> 
     }
     if not dry_run:
         manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"[ok] {course['nome']}: {len(materials)} PDF(s)")
+    removal_label = "seriam removido(s)" if dry_run else "removido(s)"
+    print(
+        f"[ok] {course['nome']}: {len(materials)} PDF(s), "
+        f"{removed} {removal_label}"
+    )
     return len(materials)
 
 

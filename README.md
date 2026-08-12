@@ -25,6 +25,10 @@ Site estático para publicar aulas e listas de **Física III**, além de aulas e
    Esse comando sincroniza os arquivos, cria o commit e envia a atualização
    para o GitHub. Se não houver mudanças, nenhum commit será criado.
 
+   A sincronização funciona como um espelho: ao remover um PDF da pasta de
+   origem, a cópia correspondente também será removida do site na próxima
+   execução.
+
 4. Para conferir uma prévia local antes de atualizar, execute:
 
    ```bash
