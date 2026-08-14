@@ -1,6 +1,6 @@
 {
   "disciplina": "Física III",
-  "atualizado_em": "2026-08-12",
+  "atualizado_em": "2026-08-14",
   "materiais": [
     {
       "titulo": "Aula 01 Apresentação do Curso + Carga Elétrica",
@@ -33,6 +33,22 @@
       "formato": "PDF",
       "tamanho": "672 KB",
       "arquivo": "materiais/arquivos/aula-04-carga-eletrica-e-campo-eletrico-pt-4.pdf"
+    },
+    {
+      "titulo": "Aula 05 Lei de Gauss Pt 1",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "1,4 MB",
+      "arquivo": "materiais/arquivos/aula-05-lei-de-gauss-pt-1.pdf"
+    },
+    {
+      "titulo": "Aula 06 Lei de Gauss Pt 2",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "1,9 MB",
+      "arquivo": "materiais/arquivos/aula-06-lei-de-gauss-pt-2.pdf"
     }
   ]
 }
