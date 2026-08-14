@@ -83,7 +83,10 @@ if (catalog) {
     });
   });
 
-  fetch(manifestUrl)
+  const freshManifestUrl = new URL(manifestUrl, window.location.href);
+  freshManifestUrl.searchParams.set("atualizacao", Date.now().toString());
+
+  fetch(freshManifestUrl, { cache: "no-store" })
     .then((response) => {
       if (!response.ok) throw new Error("Não foi possível carregar o catálogo.");
       return response.json();
