@@ -49,8 +49,10 @@ def category_for(course_slug: str, relative_path: Path) -> tuple[str, str]:
     normalized = unicodedata.normalize("NFKD", str(relative_path)).encode("ascii", "ignore").decode("ascii").lower()
     if course_slug == "fisica-3" and "lista" in normalized:
         return "listas", "Lista"
-    if course_slug == "fisica-experimental-1" and "complement" in normalized:
-        return "complementares", "Material complementar"
+    if course_slug == "fisica-experimental-1":
+        complementary_terms = ("complement", "guia", "roteiro")
+        if any(term in normalized for term in complementary_terms):
+            return "complementares", "Material complementar"
     return "aulas", "Aula"
 
 

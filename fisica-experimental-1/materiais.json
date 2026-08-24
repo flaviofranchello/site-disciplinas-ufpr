@@ -1,6 +1,6 @@
 {
   "disciplina": "Física Experimental I",
-  "atualizado_em": "2026-08-20",
+  "atualizado_em": "2026-08-24",
   "materiais": [
     {
       "titulo": "Aula 00 Apresentação do Curso",
@@ -28,16 +28,16 @@
     },
     {
       "titulo": "Guia de Preparação de Relatórios",
-      "categoria": "aulas",
-      "categoria_label": "Aula",
+      "categoria": "complementares",
+      "categoria_label": "Material complementar",
       "formato": "PDF",
       "tamanho": "68 KB",
       "arquivo": "materiais/arquivos/guia-de-preparacao-de-relatorios.pdf"
     },
     {
       "titulo": "Roteiro Experimento 1",
-      "categoria": "aulas",
-      "categoria_label": "Aula",
+      "categoria": "complementares",
+      "categoria_label": "Material complementar",
       "formato": "PDF",
       "tamanho": "68 KB",
       "arquivo": "materiais/arquivos/roteiro-experimento-1.pdf"

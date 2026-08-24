@@ -1,6 +1,6 @@
 {
   "disciplina": "Física III",
-  "atualizado_em": "2026-08-20",
+  "atualizado_em": "2026-08-24",
   "materiais": [
     {
       "titulo": "Aula 01 Apresentação do Curso + Carga Elétrica",
@@ -49,6 +49,30 @@
       "formato": "PDF",
       "tamanho": "1,9 MB",
       "arquivo": "materiais/arquivos/aula-06-lei-de-gauss-pt-2.pdf"
+    },
+    {
+      "titulo": "Aula 07 Lei de Gauss Pt 3",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "1,1 MB",
+      "arquivo": "materiais/arquivos/aula-07-lei-de-gauss-pt-3.pdf"
+    },
+    {
+      "titulo": "Aula 08 Potencial Elétrico Pt 1",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "1002 KB",
+      "arquivo": "materiais/arquivos/aula-08-potencial-eletrico-pt-1.pdf"
+    },
+    {
+      "titulo": "Primeira Lista",
+      "categoria": "listas",
+      "categoria_label": "Lista",
+      "formato": "PDF",
+      "tamanho": "286 KB",
+      "arquivo": "materiais/arquivos/primeira-lista.pdf"
     }
   ]
 }
