@@ -7,7 +7,7 @@ Site estático para publicar aulas e listas de **Física III**, além de aulas e
 1. Coloque os PDFs nas pastas de origem das disciplinas.
 2. A classificação é feita pelo nome do arquivo ou da subpasta:
    - em Física III, nomes contendo `lista` aparecem em **Listas**;
-   - em Física Experimental I, nomes contendo `complementar`, `guia` ou `roteiro` aparecem em **Materiais Complementares**;
+   - em Física Experimental I, nomes contendo `complementar`, `dica`, `guia` ou `roteiro` aparecem em **Materiais Complementares**;
    - os demais PDFs aparecem em **Aulas**.
 3. Execute o atualizador completo:
 

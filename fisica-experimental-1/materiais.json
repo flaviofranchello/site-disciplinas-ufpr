@@ -28,8 +28,8 @@
     },
     {
       "titulo": "dicas Relatório 1",
-      "categoria": "aulas",
-      "categoria_label": "Aula",
+      "categoria": "complementares",
+      "categoria_label": "Material complementar",
       "formato": "PDF",
       "tamanho": "140 KB",
       "arquivo": "materiais/arquivos/dicas-relatorio-1.pdf"
