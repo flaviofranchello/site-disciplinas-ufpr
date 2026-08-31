@@ -1,6 +1,6 @@
 {
   "disciplina": "Física III",
-  "atualizado_em": "2026-08-27",
+  "atualizado_em": "2026-08-31",
   "materiais": [
     {
       "titulo": "Aula 01 Apresentação do Curso + Carga Elétrica",
@@ -65,6 +65,22 @@
       "formato": "PDF",
       "tamanho": "1002 KB",
       "arquivo": "materiais/arquivos/aula-08-potencial-eletrico-pt-1.pdf"
+    },
+    {
+      "titulo": "Aula 09 Potencial Elétrico Pt 2",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "1,6 MB",
+      "arquivo": "materiais/arquivos/aula-09-potencial-eletrico-pt-2.pdf"
+    },
+    {
+      "titulo": "Aula 10 Potencial Elétrico Pt 3",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "1,7 MB",
+      "arquivo": "materiais/arquivos/aula-10-potencial-eletrico-pt-3.pdf"
     },
     {
       "titulo": "Primeira Lista",
