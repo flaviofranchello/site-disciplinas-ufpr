@@ -1,6 +1,6 @@
 {
   "disciplina": "Física III",
-  "atualizado_em": "2026-08-31",
+  "atualizado_em": "2026-09-14",
   "materiais": [
     {
       "titulo": "Aula 01 Apresentação do Curso + Carga Elétrica",
@@ -81,6 +81,22 @@
       "formato": "PDF",
       "tamanho": "1,7 MB",
       "arquivo": "materiais/arquivos/aula-10-potencial-eletrico-pt-3.pdf"
+    },
+    {
+      "titulo": "Aula 13 Capacitores",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "2,3 MB",
+      "arquivo": "materiais/arquivos/aula-13-capacitores.pdf"
+    },
+    {
+      "titulo": "Aula 14 Corrente e Resitência Elétrica Pt 1",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "3,9 MB",
+      "arquivo": "materiais/arquivos/aula-14-corrente-e-resitencia-eletrica-pt-1.pdf"
     },
     {
       "titulo": "Primeira Lista",
