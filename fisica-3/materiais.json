@@ -1,6 +1,6 @@
 {
   "disciplina": "Física III",
-  "atualizado_em": "2026-09-14",
+  "atualizado_em": "2026-09-21",
   "materiais": [
     {
       "titulo": "Aula 01 Apresentação do Curso + Carga Elétrica",
@@ -97,6 +97,22 @@
       "formato": "PDF",
       "tamanho": "3,9 MB",
       "arquivo": "materiais/arquivos/aula-14-corrente-e-resitencia-eletrica-pt-1.pdf"
+    },
+    {
+      "titulo": "Aula 15 Corrente e Resitência Elétrica Pt 2",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "2,9 MB",
+      "arquivo": "materiais/arquivos/aula-15-corrente-e-resitencia-eletrica-pt-2.pdf"
+    },
+    {
+      "titulo": "Aula 16 Circuitos de Corrente Contínua Pt 1",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "3,0 MB",
+      "arquivo": "materiais/arquivos/aula-16-circuitos-de-corrente-continua-pt-1.pdf"
     },
     {
       "titulo": "Primeira Lista",
