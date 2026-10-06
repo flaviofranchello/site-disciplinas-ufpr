@@ -1,6 +1,6 @@
 {
   "disciplina": "Física III",
-  "atualizado_em": "2026-10-05",
+  "atualizado_em": "2026-10-06",
   "materiais": [
     {
       "titulo": "Aula 01 Apresentação do Curso + Carga Elétrica",
@@ -137,6 +137,14 @@
       "formato": "PDF",
       "tamanho": "286 KB",
       "arquivo": "materiais/arquivos/primeira-lista.pdf"
+    },
+    {
+      "titulo": "Segunda Lista",
+      "categoria": "listas",
+      "categoria_label": "Lista",
+      "formato": "PDF",
+      "tamanho": "94 KB",
+      "arquivo": "materiais/arquivos/segunda-lista.pdf"
     }
   ]
 }
