@@ -1,6 +1,6 @@
 {
   "disciplina": "Física Experimental I",
-  "atualizado_em": "2026-10-06",
+  "atualizado_em": "2026-10-07",
   "materiais": [
     {
       "titulo": "Aula 00 Apresentação do Curso",
@@ -41,6 +41,14 @@
       "formato": "PDF",
       "tamanho": "68 KB",
       "arquivo": "materiais/arquivos/guia-de-preparacao-de-relatorios.pdf"
+    },
+    {
+      "titulo": "Prova Fisica Exp I",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "722 KB",
+      "arquivo": "materiais/arquivos/prova-fisica-exp-i.pdf"
     },
     {
       "titulo": "Roteiro Experimento 1",
