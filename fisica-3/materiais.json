@@ -1,6 +1,6 @@
 {
   "disciplina": "Física III",
-  "atualizado_em": "2026-10-13",
+  "atualizado_em": "2026-10-27",
   "materiais": [
     {
       "titulo": "Aula 01 Apresentação do Curso + Carga Elétrica",
@@ -137,6 +137,14 @@
       "formato": "PDF",
       "tamanho": "2,0 MB",
       "arquivo": "materiais/arquivos/aula-19-circuitos-de-corrente-continua-revisao.pdf"
+    },
+    {
+      "titulo": "Aula 22 Campos Magnéticos e Forças Magnéticas Pt 1",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "8,4 MB",
+      "arquivo": "materiais/arquivos/aula-22-campos-magneticos-e-forcas-magneticas-pt-1.pdf"
     },
     {
       "titulo": "Primeira Lista",
