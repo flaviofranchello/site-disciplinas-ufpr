@@ -1,6 +1,6 @@
 {
   "disciplina": "Física Experimental I",
-  "atualizado_em": "2026-10-27",
+  "atualizado_em": "2026-10-29",
   "materiais": [
     {
       "titulo": "Aula 00 Apresentação do Curso",
@@ -49,6 +49,14 @@
       "formato": "PDF",
       "tamanho": "722 KB",
       "arquivo": "materiais/arquivos/prova-fisica-exp-i.pdf"
+    },
+    {
+      "titulo": "Roteiro e Questôes Queda Livre",
+      "categoria": "complementares",
+      "categoria_label": "Material complementar",
+      "formato": "PDF",
+      "tamanho": "74 KB",
+      "arquivo": "materiais/arquivos/roteiro-e-questoes-queda-livre.pdf"
     },
     {
       "titulo": "Roteiro Experimento 1",
