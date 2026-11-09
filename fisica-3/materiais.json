@@ -1,6 +1,6 @@
 {
   "disciplina": "Física III",
-  "atualizado_em": "2026-11-04",
+  "atualizado_em": "2026-11-09",
   "materiais": [
     {
       "titulo": "Aula 01 Apresentação do Curso + Carga Elétrica",
@@ -153,6 +153,22 @@
       "formato": "PDF",
       "tamanho": "5,5 MB",
       "arquivo": "materiais/arquivos/aula-23-campos-magneticos-e-forcas-magneticas-pt-2.pdf"
+    },
+    {
+      "titulo": "Aula 24 Fontes de Campos Magnéticos Pt 1",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "6,8 MB",
+      "arquivo": "materiais/arquivos/aula-24-fontes-de-campos-magneticos-pt-1.pdf"
+    },
+    {
+      "titulo": "Aula 25 Fontes de Campos Magnéticos Pt 2",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "4,7 MB",
+      "arquivo": "materiais/arquivos/aula-25-fontes-de-campos-magneticos-pt-2.pdf"
     },
     {
       "titulo": "Primeira Lista",
