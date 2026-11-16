@@ -1,6 +1,6 @@
 {
   "disciplina": "Física III",
-  "atualizado_em": "2026-11-09",
+  "atualizado_em": "2026-11-16",
   "materiais": [
     {
       "titulo": "Aula 01 Apresentação do Curso + Carga Elétrica",
@@ -171,6 +171,30 @@
       "arquivo": "materiais/arquivos/aula-25-fontes-de-campos-magneticos-pt-2.pdf"
     },
     {
+      "titulo": "Aula 26 Indução Eletromagnética Pt 1",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "4,7 MB",
+      "arquivo": "materiais/arquivos/aula-26-inducao-eletromagnetica-pt-1.pdf"
+    },
+    {
+      "titulo": "Aula 27 Indução Eletromagnética Pt 2",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "3,6 MB",
+      "arquivo": "materiais/arquivos/aula-27-inducao-eletromagnetica-pt-2.pdf"
+    },
+    {
+      "titulo": "Aula 28 Equações de Maxwell e as Ondas Eletromagnéticas",
+      "categoria": "aulas",
+      "categoria_label": "Aula",
+      "formato": "PDF",
+      "tamanho": "8,1 MB",
+      "arquivo": "materiais/arquivos/aula-28-equacoes-de-maxwell-e-as-ondas-eletromagneticas.pdf"
+    },
+    {
       "titulo": "Primeira Lista",
       "categoria": "listas",
       "categoria_label": "Lista",
@@ -185,6 +209,14 @@
       "formato": "PDF",
       "tamanho": "94 KB",
       "arquivo": "materiais/arquivos/segunda-lista.pdf"
+    },
+    {
+      "titulo": "Terceira Lista",
+      "categoria": "listas",
+      "categoria_label": "Lista",
+      "formato": "PDF",
+      "tamanho": "63 KB",
+      "arquivo": "materiais/arquivos/terceira-lista.pdf"
     }
   ]
 }
